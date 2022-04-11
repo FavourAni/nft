@@ -1,0 +1,122 @@
+html{
+    /* font-size: 16px; */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    top: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color: #071c3b;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.small{
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+    /* width: clamp(32rem, 30%, 78rem); */
+    width: 25%;
+    height: 85%;
+    background-color: #071c3b;
+    /* border: 2px solid #0f30a8; */
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1rem;
+    filter: drop-shadow(0px 0px 15px );
+}
+.thenft{
+    position: relative;
+    /* display: flex; */
+    /* height: 20%;
+    width: 15%; */
+    /* border-radius: 1rem; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.thenft img{
+    position: absolute;
+    width: 360px;
+    height: 340px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 2rem;
+     
+}
+.text_info{
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    /* margin-bottom: 30px; */
+    /* margin-top: 50px; */
+    align-items: center;
+    justify-content: center;
+    /* height: 30%;
+    width: 90%; */
+}
+.text_info h4{
+    position: absolute;
+    top: 350px;
+    left: 15px;
+
+}
+.text_info p{
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    color: #5c6fb2;
+    font-weight: 900;
+}
+.small .price{
+    position: absolute;
+    top: 470px;
+    left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small .price1{
+    position: absolute;
+    top: 470px;
+    left: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.small .price h5{
+    padding-left: 10px;
+    color: #0abdd1;
+}
+.small .price1 h5{
+    padding-left: 10px;
+    color: #5c6fb2;
+}
+.owner{
+    position: absolute;
+    top: 530px;
+    left: 15px;
+    height: 70px;
+    width: 355px;
+    display: flex;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    border-top: 1px solid #5c6fb2;
+}
+.owner img{
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.owner p{
+    padding-left: 20px;
+    color: #fff;
+}
+.owner span{
+    color: #5c6fb2;
+}
